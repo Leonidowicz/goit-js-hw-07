@@ -1,0 +1,23 @@
+#gallery {
+  display: flex;
+  flex-direction: column;
+}
+.imgGalery {
+  width: 400px;
+  margin: 30px;
+
+  border-radius: 15px;
+  box-shadow: 19px 20px 18px -3px rgba(0, 0, 0, 0.37);
+  -webkit-box-shadow: 19px 20px 18px -3px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 19px 20px 18px -3px rgba(0, 0, 0, 0.37);
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+#validation-input.valid {
+  border-color: #4caf50;
+}
+#validation-input.invalid {
+  border-color: #f44336;
+}
